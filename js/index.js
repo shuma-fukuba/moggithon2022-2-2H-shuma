@@ -122,6 +122,8 @@ function fetchIssues() {
 <a href="#" onclick="deleteIssue(\''${id}'\')" class="btn btn-danger">Delete</a>  */}
 // \' = '
 
+// JSファイル読み込み時の処理
+window.onload = fetchIssues();
 
 
 var a = "ジャバ\スク\nリプト";
